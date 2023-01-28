@@ -1,0 +1,389 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    margin: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+.memberbox {
+    text-align: center;
+    width:30%;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*
+-----
+Header
+-----
+*/
+
+.banner-container {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(127deg, #ffc401 0%, #ff7300 91%);
+    letter-spacing: 1.4px;
+}
+
+.header-text {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/*
+-----
+Menu
+-----
+*/
+
+.menu-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-child {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: white 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu-link {
+    color: #ff8d00;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: rgb(36, 36, 36);
+}
+
+.menu-link-active {
+    color: #ff5e00;
+    text-decoration: none;
+}
+
+.menu-link-active:hover {
+    color: rgb(76, 76, 76);
+}
+
+
+/*
+-----
+About
+-----
+*/
+
+.about-container {
+    background: white;
+    letter-spacing: 1.4px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: left;
+}
+
+.about-text {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+/*
+-----
+Signup
+-----
+*/
+
+.signup-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-input {
+    width: 400px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: rgba(212, 212, 212, 0.5) 1px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    height: 30px;
+}
+
+/*
+-----
+General
+-----
+*/
+
+.general-button {
+    width: 150px;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #ff8d00;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    font-family: "Raleway", sans-serif;
+}
+
+.general-button:hover {
+    background-color: #44bfd4;
+}
+
+.general-container {
+    /* background: #e3ffff; */
+    background: white;
+    letter-spacing: 1.4px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    /* display: flex; */
+    justify-content: center;
+    color: #1e1e1e;
+}
+
+.general-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #1e1e1e;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.general-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.custom-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*
+-----
+Project
+-----
+*/
+
+.project-box {
+    background: white;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 20px 0px;
+    width: 600px;
+    text-align: center;
+}
+
+.project-visit {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ffae00;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+}
+
+.project-visit:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+/*
+-----
+Channel
+-----
+*/
+
+.channel-container {
+    background: #f2fdfe;
+    letter-spacing: 1.4px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.channel-box {
+    background: white;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 20px 0px;
+    width: 350px;
+    text-align: center;
+}
+
+.channel-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.channel-footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.channel-button {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ff8d00;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+}
+
+.channel-button:hover {
+    background-color: rgb(71, 151, 255);
+}
+
+.channel-subscribe {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #bb0000;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+}
+
+.channel-subscribe:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+/*
+-----
+Download Page
+-----
+*/
+
+.downloadCard {
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    border: 2px solid #b8b8b8;
+    font-weight: bold;
+    text-decoration: none;
+    /* ffc401 0%, #ff7300 */
+  }
+  
+  .downloadCard:hover {
+    border: 2px solid #ffc401;
+  }
+
+  .downloadCardUnderText {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #ff8d00;
+    text-decoration: none;
+  }
+
+  .downloadCardUnderText:hover {
+    color: #363636;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+/*
+-----
+Footer
+-----
+*/
+
+footer {
+    background-image: linear-gradient(127deg, #ffc401 0%, #ff7300 91%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+}
+
+.footer-socials {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+}
